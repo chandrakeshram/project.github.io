@@ -4,19 +4,23 @@ body{
     background-color: antiquewhite;
     
 }
+html{
+    font-size: 62.5%;
+}
 *{
     padding: 0;
     margin: 0;
 }
 nav{
     font-family: 'Roboto Slab', serif;
+    width: 100%;
 
 }
 nav ul{
     display: flex;
     list-style-type:none;
     align-items: center;
-    height: 8vh;
+    height: 6vh;
     background-color: black ;
     color: white;
     border-style: groove;
@@ -24,16 +28,16 @@ nav ul{
     border-color: grey;
     border-left: none;
     border-right: none;
-    
+    position: sticky;
     
     
 }
 nav ul li{
-    padding: 0 8px;
+    padding: 0 0.6rem;
     
 }
 .logo img{
-    width: 43px;
+    width: 35px;
     
     border-radius: 30px;
 }
@@ -41,9 +45,12 @@ nav ul li{
     display: flex;
     align-items: center;
     font-weight: bolder;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     padding: 0 6px;
     color: rgb(8, 186, 240);
+}
+.navbar{
+    font-size: 1rem;
 }
 .container{
     min-height:60vh;
@@ -51,14 +58,13 @@ nav ul li{
     color: black;
     font-family: 'Playfair Display', serif;
     display: flex;
-    margin: 23px auto;
-    width: 80%;
+    margin: 10px auto;
+    width: 70%;
+    height: fit-content;
     border-radius: 20px;
     padding: 34px;
-    object-fit: cover;
     background: url('bgimage.jpg') no-repeat;
-    background-size: 100%;
-    
+    background-size: cover;
     
 }
 .bottom{
@@ -78,16 +84,16 @@ nav ul li{
     border-bottom: none;
     border-left: none;
     border-right: none;
+    position: sticky;
     
 }
 
 .container standard{
-    height: 30px;
-    width: 60px;
+    
     
     color :white;
-    display: flex;
-    margin: 12px 12px;
+    
+    margin: 0px 0.5px;
     border-radius: 10px;
     border-style: groove;
     border-width: 10px;
@@ -96,66 +102,63 @@ nav ul li{
     
 }
 .standard{
-    height: 60vh;
-    width: 30vw;
+    height: 55vh;
+    width: 25vw;
     background-color:rgb(155, 224, 141);
     color: black;
-    margin :10px 5px;
+    margin :0.5px 0.5px;
     border-radius: 10px;
     border-style: groove;
     border-color: rgb(8, 172, 16);
-    border-width: 10px;
+    border-width: 0.2px;
     text-align: center;
     opacity: 0.8;
-
+    
 
     
     
 }
 .standard img{
     
-    width: 100px;
+    width: 65px;
     margin: 10px 10px;
     border-radius: 5px;
     
 }
-#8{
-    padding: 10px 1px;
-    
 
-}
 .button {
     border:3px;
     color: rgb(2, 52, 65);
-    padding: 15px 32px;
+    padding: 0.8rem 1rem;
     text-align: center;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 1.5;
+    margin: 3px 1.5px;
     cursor: pointer;
     border-style: double;
     background-color: aqua;
-    border-radius: 16px;
+    border-radius: 1.6rem;
     font-weight: bolder;
     font-family: 'Roboto Slab', serif;
   }
   .container1{
-    min-height:50vh;
+    min-height:5vh;
     color: black;
     font-family: 'Playfair Display', serif;
     margin: 23px auto;
-    width: 80%;
+    width: 70%;
     border-radius: 10px;
     padding: 34px;
     background: url('bgimage1.jpg') no-repeat;
-    object-fit: cover;
-    background-size: 100%;
+    
     align-items: center;
     opacity: 0.9;
     text-align: center;
-    
-    
+    background-size: cover;
+}
+.container1 register{
+    font-size: 1.8rem;
 }
 hr.new1 {
-    border-top: 2px dashed rgb(38, 144, 214);
+    border-top: 2px double rgb(38, 144, 214);
   }

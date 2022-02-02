@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Merriweather:wght@300&family=Playfair+Display:wght@400;600&family=Roboto+Slab:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Merriweather:wght@300&family=Playfair+Display:wght@400;600&display=swap');
-body{
-    background-color: antiquewhite;
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Merriweather:wght@300&family=Playfair+Display:wght@400;600&family=Poppins:wght@100;200;300&family=Roboto+Slab:wght@700&display=swap');
+ody{
+    background: linear-gradient(rgba(99, 94, 94, 0.76),rgb(168, 168, 157),rgb(236, 236, 228));
     
 }
 html{
@@ -51,8 +52,7 @@ nav ul li{
     transition: 2s;
 }
 .navbar{
-    font-size: 1rem;
-    transition: 2s;
+    transition:all 0.3s ease ;
 }
 .container{
     min-height:60vh;
@@ -67,28 +67,10 @@ nav ul li{
     padding: 34px;
     background: url('bgimage.jpg') no-repeat;
     background-size: cover;
+    transition: 1.2s;
     
 }
-.bottom{
-    position:sticky;
-    height: 55px;
-    background-color: black;
-    bottom: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: antiquewhite;
-    font-family: 'Playfair Display', serif;
-    border-style: groove;
-    border-width: 5px;
-    border-color: grey;
-    border-bottom: none;
-    border-left: none;
-    border-right: none;
-    position: sticky;
-    
-}
+
 
 .container standard{
     
@@ -183,7 +165,8 @@ hr.new1 {
     transform: scale(1.2);
 }
 .logo:hover{
-    transform: scale(1.09);
+    color:#ffffff;
+    padding-bottom: 0.7rem;
 }
 .logo img:hover{
     transform: scale(1.1);
@@ -192,4 +175,125 @@ hr.new1 {
     background-color:rgb(39, 223, 79) ;
     color:black;
     box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2),  0 16px 16px 0 rgba(0,0,0,0.19);
+}
+.logos img{
+    width: 35px;
+    height: auto;
+    border-radius: 32px;
+    padding: 10px 5px;
+}
+.bottom logos{
+    display: flex;
+    align-items: center;
+}
+
+    
+ 
+.fb{
+    transition: 1.4s;
+
+}
+.fb:hover{
+    transform: scale(1.3);
+}
+.tw{
+    transition: 1.4s;
+
+}
+.tw:hover{
+    transform: scale(1.3);
+}
+.ig{
+    transition: 1.4s;
+
+}
+.ig:hover{
+    transform: scale(1.3);
+}
+.yt{
+    transition: 1.4s;
+
+}
+.yt:hover{
+    transform: scale(1.3);
+}
+.container:hover{
+    transform:scale(1.056);
+}
+.bottom{
+    position:sticky;
+    height:fit-content;
+    align-items: center;
+    color: antiquewhite;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    padding-left: 7rem;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer ul{
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+.footer {
+    padding :2rem 0rem;
+    margin:auto;
+}
+.footer_col{
+    width: 18%;
+    padding: 0 1rem;
+
+}
+.footer_col h4{
+    font-size: 1.2rem;
+    margin-bottom: 3.5rem;
+    color: antiquewhite;
+    font-weight: 500;
+    position: relative;
+}
+.footer_col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    background-color: rgb(150, 4, 4);
+    height: 2px;
+    box-sizing: border-box;
+    width: 3rem;
+    bottom: -1rem;
+}
+.footer_col ul li:not(:last-child){
+    margin-bottom:1rem;
+}
+.footer_col ul li a{
+    font-size: 1rem;
+    color: #ffffff93;
+    font-weight: 300;
+    display: block;
+    color: #bbbbbb;
+    text-decoration: none;
+    transition:all 0.3s ease ;
+}
+.footer_col ul li a:hover{
+    color: #ffffff;
+    padding-left: 0.6rem;
+
+}
+.footer_col .socialLinks a{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: rgba(255,255,255,0.2);
+    text-align: center;
+    border-radius: 32px;
+    line-height: 2.9rem;
+    color: #ffffff;
+    transition:all 0.5s ease ;
+
+}
+.footer_col .socialLinks a:hover{
+    color:rgb(75, 74, 74);
+    background-color: #ffffff;
 }

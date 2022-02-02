@@ -50,7 +50,7 @@ nav ul li{
     transition:all 0.3s ease ;
 }
 .container{
-    min-height:60vh;
+    
     color: black;
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -66,7 +66,7 @@ nav ul li{
 
 
 .standard{
-    height: 55vh;
+    height: fit-content;
     width: 25vw;
     background-image:linear-gradient(rgb(159, 161, 161),rgb(253, 253, 253)) ;
     color: black;
@@ -266,4 +266,8 @@ nav ul li{
 .footer_col .socialLinks a:hover{
     color:rgb(75, 74, 74);
     background-color: #ffffff;
+}
+.container button{
+    font-size: 1rem;
+    margin: 3px 1.5px;
 }

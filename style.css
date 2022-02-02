@@ -13,7 +13,7 @@ html{
     margin: 0;
 }
 nav{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Poppins', sans-serif;;
     width: 100%;
 
 }
@@ -24,11 +24,6 @@ nav ul{
     height: 6vh;
     background-color: black ;
     color: white;
-    border-style: groove;
-    border-width: 5px;
-    border-color: grey;
-    border-left: none;
-    border-right: none;
     position: sticky;
     
     
@@ -56,49 +51,31 @@ nav ul li{
 }
 .container{
     min-height:60vh;
-    background-color: black;
     color: black;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     margin: 10px auto;
     width: 70%;
     height: fit-content;
-    border-radius: 20px;
     padding: 34px;
-    background: url('bgimage.jpg') no-repeat;
+    background-image: linear-gradient(rgb(69, 196, 228),rgb(171, 233, 238));
     background-size: cover;
     transition: 1.2s;
     
 }
 
 
-.container standard{
-    
-    
-    color :white;
-    
-    margin: 0px 0.5px;
-    border-radius: 10px;
-    border-style: groove;
-    border-width: 10px;
-    border-color: rgb(1, 5, 15);
-    
-    
-}
 .standard{
     height: 55vh;
     width: 25vw;
-    background-color:rgb(155, 224, 141);
+    background-image:linear-gradient(rgb(159, 161, 161),rgb(253, 253, 253)) ;
     color: black;
     margin :0.5px 0.5px;
-    border-radius: 10px;
-    border-style: groove;
-    border-color: rgb(8, 172, 16);
     border-width: 0.2px;
     text-align: center;
     opacity: 0.8;
-    
-    
+    font-weight: bold;
+    transition: 1.3s;
 
     
     
@@ -107,72 +84,65 @@ nav ul li{
     
     width: 65px;
     margin: 10px 10px;
-    border-radius: 5px;
-    transition: 2s;
-    
+   
 }
 
 .button {
-    border:3px;
-    color: rgb(2, 52, 65);
+    border:1px;
+    color: rgb(0, 0, 0);
     padding: 0.8rem 1rem;
     text-align: center;
     display: inline-block;
-    font-size: 1.5;
+    font-size: 1.5rem;
     margin: 3px 1.5px;
     cursor: pointer;
     border-style: double;
-    background-color: aqua;
-    border-radius: 1.6rem;
+    background-color: rgb(255, 255, 255);
     font-weight: bolder;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Poppins', sans-serif;;
   }
   .container1{
     transition: 2s;
     min-height:5vh;
     color: black;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     margin: 23px auto;
     width: 70%;
-    border-radius: 10px;
     padding: 34px;
-    background: url('bgimage1.jpg') no-repeat;
-    
+    background-image: linear-gradient(rgb(69, 196, 228),rgb(171, 233, 238));
     align-items: center;
     opacity: 0.9;
     text-align: center;
     background-size: cover;
+    font-weight: bold;
+
 }
 .container1 register{
     font-size: 1.8rem;
 }
-hr.new1 {
-    border-top: 2px double rgb(38, 144, 214);
-  }
+
 .button:hover{
-    background-color: blueviolet;
+    background-color: rgb(0, 0, 0);
     color: white;
     box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2),  0 16px 16px 0 rgba(0,0,0,0.19);
 }
 
 .container1:hover{
-    transform: scale(1.2);
+    background-image:linear-gradient(rgb(139, 228, 235),rgb(189, 224, 236)) ;
 }
-.standard img:hover{
-    transform: scale(1.2);
-}
+
 .navbar:hover{
     transform: scale(1.2);
 }
 .logo:hover{
     color:#ffffff;
-    padding-bottom: 0.7rem;
+    padding-top: 0.7rem;
 }
 .logo img:hover{
     transform: scale(1.1);
 }
 .standard:hover{
-    background-color:rgb(39, 223, 79) ;
+    background-image:linear-gradient(rgb(187, 185, 185),white) ;
     color:black;
     box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2),  0 16px 16px 0 rgba(0,0,0,0.19);
 }
@@ -218,7 +188,7 @@ hr.new1 {
     transform: scale(1.3);
 }
 .container:hover{
-    transform:scale(1.056);
+    background-image:linear-gradient(rgb(139, 228, 235),rgb(189, 224, 236)) ;
 }
 .bottom{
     position:sticky;

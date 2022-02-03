@@ -97,7 +97,7 @@ nav ul li{
     border-style: double;
     background-color:rgb(72, 167, 230);
     font-weight: bolder;
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
   }
   .container1{
     transition: 2s;
@@ -269,7 +269,7 @@ nav ul li{
     border-width: 1px;
     display: inline-block;
 }
-.nav ul li navbar a{
+.navbar a{
     text-decoration: none;
     color:whitesmoke
 }

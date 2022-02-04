@@ -158,9 +158,11 @@ nav ul li a{
 .container{
     width: 80%;
     margin: 5rem auto;
+    
 }
 .contact-box{
     background-color: whitesmoke;
+    display: flex;
 
 }
 .contact-left{
@@ -413,6 +415,12 @@ button:hover{
     }
     .template p h2{
         font-size: 1.6rem;
+    }
+    .contact-box{
+        background-color: whitesmoke;
+        display: grid;
+        
+    
     }
 
     

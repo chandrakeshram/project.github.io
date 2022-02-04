@@ -317,12 +317,12 @@ button:hover{
 @media(min-width:1020px){
     .rows{
         display: grid;
-        grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-        grid-gap: 3rem;
+        grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+        grid-gap: 4rem;
     }
     .service{
         text-align: center;
-        padding: 6rem 3rem;
+        padding: 6rem 4rem;
         cursor: pointer;
         background: transparent;
         margin-bottom: 2rem;

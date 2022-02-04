@@ -289,25 +289,24 @@ button:hover{
     min-height: 60vh;
 }
 .template{
-    min-height: 34vh;
-    width: 80%;
-    border-style:solid ;
-    border-color: #070707;
+    width: 97%;
     text-align: center;
     transition: 1.2s;
     background-color: #ccc;
     height: fit-content;
     padding: 1rem 1rem;
     margin: 5rem auto;
-    background-image: url("bgimage.jpg");
-    background-size:100% 100%;
-    background-repeat: no-repeat;
     align-items: center;
-    
+    font-size: 1.6rem;
+}
+.template p h2{
+    font-weight: bolder;
+    font-size: 2.2rem;
 }
 .template:hover{
     background-color: #ffffff;
-
+    box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2),  0 16px 16px 0 rgba(0,0,0,0.19);
+    font-weight: bolder;
 }
 .heading {
     margin: 5px 5px;
@@ -399,6 +398,23 @@ button:hover{
         transition: 1.1s;
         font-size: 1.0rem;
     }
+    .template{
+        width: 97%;
+        text-align: center;
+        transition: 1.2s;
+        background-color: #ccc;
+        height: fit-content;
+        padding: 1rem 1rem;
+        margin: 5rem auto;
+        align-items: center;
+        font-size: 1rem;
+        
+        
+    }
+    .template p h2{
+        font-size: 1.6rem;
+    }
+
     
     
 }

@@ -286,18 +286,6 @@ button:hover{
         background-color:rgb(72, 167, 230);
         font-weight: bolder;
         font-family: 'Poppins', sans-serif;
-      }
-    nav ul{
-        display: flex;
-        list-style-type:none;
-        align-items: center;
-        height: 6vh;
-        background-color: #141850 ;
-        color: white;
-        position: sticky;
-        
-        
-        
     }
     hr{
         height: 2px;
@@ -328,26 +316,5 @@ button:hover{
         
     }
     
-    
 }
-@media(min-width:1020px){
-    .rows{
-        display: grid;
-        grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-        grid-gap: 3rem;
-    }
-    
-    .service{
-        text-align: center;
-        padding: 6rem 3rem;
-        cursor: pointer;
-        background: transparent;
-        margin-bottom: 2rem;
-    }
-    .service i{
-        font-size: 6rem;
-        margin-bottom: 2rem;
-        color: #141850;
-        
-    }
-}
+

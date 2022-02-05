@@ -315,15 +315,6 @@ button:hover{
         background: transparent;
         margin-bottom: 1.5rem;
     }
-    
-    
-}
-@media(min-width:1020px){
-    .rows{
-        display: grid;
-        grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-        grid-gap: 3rem;
-    }
     nav ul{
         display: flex;
         list-style-type:none;
@@ -336,6 +327,16 @@ button:hover{
         
         
     }
+    
+    
+}
+@media(min-width:1020px){
+    .rows{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+        grid-gap: 3rem;
+    }
+    
     .service{
         text-align: center;
         padding: 6rem 3rem;

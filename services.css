@@ -223,12 +223,12 @@ button:hover{
 }
 .service:hover{
     background-color: #f5cac2;
-    color: #141850;
+    color: #ed7966;
     box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2),  0 16px 16px 0 rgba(0,0,0,0.19);
     
 }
 .service:hover i{
-    color: #141850;
+    color: #ed7966;
 }
 .service h2{
     font-weight: 600;

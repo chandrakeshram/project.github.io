@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color:rgb(72, 167, 230);
+    font-size: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+
+}
+nav ul{
+    display: flex;
+    list-style-type:none;
+    align-items: center;
+    height: 6vh;
+    background-color: black ;
+    color: white;
+    position: sticky;
+    
+    
+    
+    
+}
+nav ul li{
+    padding: 0 0.6rem;
+    
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color:whitesmoke
+}
+.logo img{
+    width: 35px;
+    transition: 2s;
+    border-radius: 30px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    padding: 0 6px;
+    color: rgb(61,154,161);
+}
+.navbar{
+    transition:all 0.3s ease ;
+}
+.navbar:hover{
+    transform: scale(1.2);
+}
+.logos img{
+    width: 35px;
+    height: auto;
+    border-radius: 32px;
+    padding: 10px 5px;
+}
+.bottom logos{
+    display: flex;
+    align-items: center;
+}
+.bottom{
+    position:sticky;
+    height:fit-content;
+    align-items: center;
+    color: antiquewhite;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    padding-left: 7rem;
+    
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer ul{
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+.footer {
+    padding :2rem 0rem;
+    margin:auto;
+}
+.footer_col{
+    width: 18%;
+    padding: 0 1rem;
+
+}
+.footer_col h4{
+    font-size: 1.2rem;
+    margin-bottom: 3.5rem;
+    color: antiquewhite;
+    font-weight: 500;
+    position: relative;
+}
+.footer_col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    background-color: rgb(150, 4, 4);
+    height: 2px;
+    box-sizing: border-box;
+    width: 3rem;
+    bottom: -1rem;
+}
+.footer_col ul li:not(:last-child){
+    margin-bottom:1rem;
+}
+.footer_col ul li a{
+    font-size: 1rem;
+    color: #ffffff93;
+    font-weight: 300;
+    display: block;
+    color: #bbbbbb;
+    text-decoration: none;
+    transition:all 0.3s ease ;
+}
+.footer_col ul li a:hover{
+    color: #ffffff;
+    padding-left: 0.6rem;
+
+}
+.footer_col .socialLinks a{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: rgba(255,255,255,0.2);
+    text-align: center;
+    border-radius: 32px;
+    line-height: 2.9rem;
+    color: #ffffff;
+    transition:all 0.5s ease ;
+
+}
+.footer_col .socialLinks a:hover{
+    color:rgb(75, 74, 74);
+    background-color: #ffffff;
+}
+.navbar{
+    display: flex;
+    border-color: white;
+    border-right: solid;
+    border-width: 1px;
+    display: inline-block;
+}
+
+.container{
+    margin:5rem auto ;
+    background-color: rgb(255, 255, 255);
+    height:fit-content;
+    width: 80%;
+    padding: 3rem 3rem;
+}
+.container h1{
+    text-align: center;
+    font-size: 3rem ;
+    font-weight: 600;
+}
+.container hr{
+    width: 10rem;
+    height: 3px;
+    margin:auto;
+    background-color: rgb(150, 4, 4);
+    border-style: none;
+}
+.rows{
+    display:flex;
+    align-items: center;
+    
+}
+.about0{
+    height: 250px;
+    width: 600px;
+    margin: auto;
+}
+.image-part{
+    align-items: center;
+    margin: auto;
+} 
+
+.content-part p{
+    padding: 0rem 5rem;
+    margin: 1rem auto;
+}
+.content-part  h2{
+    text-align: center;
+    padding-top: 3rem;
+}
+.image-part h2{
+    text-align: center;
+}
+.about0{
+    transition:all ease 0.3s;
+    grid-gap: 2rem;
+}
+.about0:hover{
+    transform: scale(1.02);
+}
+.container:hover{
+    background-color: #bbbbbb;
+
+}
+@media(max-width:700px){
+    
+    .container{
+        margin:3rem auto ;
+        background-color: rgb(255, 255, 255);
+        height:fit-content;
+        width: 80%;
+        padding: 2rem 2rem;
+        font-size: 1rem;
+    }
+}
+@media(max-width:900px){
+    .container{
+        margin:5rem auto ;
+        background-color: rgb(255, 255, 255);
+        height:fit-content;
+        width: 80%;
+        padding: 3rem 3rem;
+        font-size: 1.2rem;
+    }
+}

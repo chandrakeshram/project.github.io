@@ -324,6 +324,18 @@ button:hover{
         grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
         grid-gap: 3rem;
     }
+    nav ul{
+        display: flex;
+        list-style-type:none;
+        align-items: center;
+        height: 6vh;
+        background-color: #141850 ;
+        color: white;
+        position: sticky;
+        font-size: 0.9rem;
+        
+        
+    }
     .service{
         text-align: center;
         padding: 6rem 3rem;

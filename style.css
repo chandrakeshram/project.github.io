@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Merriweather:wght@300&family=Playfair+Display:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Merriweather:wght@300&family=Playfair+Display:wght@400;600&family=Poppins:wght@100;200;300&family=Roboto+Slab:wght@700&display=swap');
 body{
-    background-color:rgb(72, 167, 230);
+    background-color:#ffffff ;
     font-size: 1.4rem;
     
 }
@@ -23,9 +23,10 @@ nav ul{
     list-style-type:none;
     align-items: center;
     height: 6vh;
-    background-color: black ;
+    background-color: #141850 ;
     color: white;
     position: sticky;
+    text-align: right;
     
     
 }
@@ -37,6 +38,7 @@ nav ul li{
     width: 35px;
     transition: 2s;
     border-radius: 30px;
+    margin: 1rem 1rem;
 }
 .logo{
     display: flex;
@@ -44,21 +46,21 @@ nav ul li{
     font-weight: bolder;
     font-size: 1.4rem;
     padding: 0 6px;
-    color: rgb(61,154,161);
+    color: #f5cac2;
 }
 .navbar{
     transition:all 0.3s ease ;
 }
 .container{
     
-    color: black;
+    color: #141850;
     font-family: 'Poppins', sans-serif;
     display: flex;
     margin: 10px auto;
     width: 70%;
     height: fit-content;
     padding: 34px;
-    background-color: whitesmoke;
+    background-color: #fae5df;
     background-size: cover;
     transition: 1.2s;
     
@@ -68,9 +70,9 @@ nav ul li{
 .standard{
     height: fit-content;
     width: 25vw;
-    background-color: rgb(211, 210, 210);
-    color: black;
-    margin :0.5px 0.5px;
+    background-color: #f5cac2;
+    color: #141850;
+    margin :0.5px 1px;
     border-width: 0.2px;
     text-align: center;
     font-weight: bold;
@@ -88,27 +90,29 @@ nav ul li{
 
 .button {
     border:1px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 0.8rem 1rem;
     text-align: center;
     display: inline-block;
     font-size: 1.5rem;
     margin: 3px 1.5px;
     cursor: pointer;
-    border-style: double;
-    background-color:rgb(72, 167, 230);
-    font-weight: bolder;
+    background-color:#ed7966;
     font-family: 'Poppins', sans-serif;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #141850;
+    font-weight: 600;
   }
   .container1{
     transition: 2s;
     min-height:5vh;
-    color: black;
+    color: #141850;
     font-family: 'Poppins', sans-serif;
     margin: 23px auto;
     width: 70%;
     padding: 34px;
-    background-color: whitesmoke;
+    background-color: #fae5df;
     align-items: center;
     text-align: center;
     background-size: cover;
@@ -120,13 +124,13 @@ nav ul li{
 }
 
 .button:hover{
-    background-color: rgb(0, 0, 0);
+    background-color: #141850;
     color: white;
     box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2),  0 16px 16px 0 rgba(0,0,0,0.19);
 }
 
 .container1:hover{
-    background-image:linear-gradient(rgb(139, 228, 235),rgb(189, 224, 236)) ;
+    background-color: #f5cac2;
 }
 
 .navbar:hover{
@@ -134,8 +138,8 @@ nav ul li{
 }
 
 .standard:hover{
-    background-image:linear-gradient(rgb(187, 185, 185),white) ;
-    color:black;
+    background-color: #fae5df;
+    color:#141850;
     box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2),  0 16px 16px 0 rgba(0,0,0,0.19);
 }
 .logos img{
@@ -180,15 +184,15 @@ nav ul li{
     transform: scale(1.3);
 }
 .container:hover{
-    background-image:linear-gradient(rgb(139, 228, 235),rgb(189, 224, 236)) ;
+    background-color: #f5cac2;
 }
 .bottom{
     position:sticky;
     height:fit-content;
     align-items: center;
-    color: antiquewhite;
+    color: #fae5df;
     font-family: 'Poppins', sans-serif;
-    background-color: black;
+    background-color: #141850;
     padding-left: 7rem;
     
 }
@@ -212,7 +216,7 @@ nav ul li{
 .footer_col h4{
     font-size: 1.6rem;
     margin-bottom: 3.5rem;
-    color: antiquewhite;
+    color: #fae5df;
     font-weight: 500;
     position: relative;
 }
@@ -220,7 +224,7 @@ nav ul li{
     content: '';
     position: absolute;
     left: 0;
-    background-color: rgb(150, 4, 4);
+    background-color: #ed7966;
     height: 2px;
     box-sizing: border-box;
     width: 3rem;
@@ -247,7 +251,7 @@ nav ul li{
     display: inline-block;
     height: 30px;
     width: 30px;
-    background-color: rgba(255,255,255,0.2);
+    background-color: #303179;
     text-align: center;
     border-radius: 32px;
     line-height: 2.9rem;
@@ -256,7 +260,7 @@ nav ul li{
 
 }
 .footer_col .socialLinks a:hover{
-    color:rgb(75, 74, 74);
+    color:#141850;
     background-color: #ffffff;
 }
 .container button{
@@ -321,7 +325,7 @@ nav ul li{
     }
     .button {
         border:0.8px;
-        color: rgb(0, 0, 0);
+        color: #141850;
         padding: 0.8rem 1rem;
         text-align: center;
         display: inline-block;
@@ -338,7 +342,7 @@ nav ul li{
         list-style-type:none;
         align-items: center;
         height: 6vh;
-        background-color: black ;
+        background-color: #141850 ;
         color: white;
         position: sticky;
         font-size: 0.9rem;

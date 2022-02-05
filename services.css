@@ -10,7 +10,7 @@ html{
     font-size: 62.5%;
 }
 body{
-    background-color:rgb(72, 167, 230);
+    background-color:#ffffff ;
     font-size: 1.4rem;
     font-family: 'Poppins', sans-serif;
 }
@@ -24,11 +24,10 @@ nav ul{
     list-style-type:none;
     align-items: center;
     height: 6vh;
-    background-color: black ;
+    background-color: #141850 ;
     color: white;
     position: sticky;
-    
-    
+    text-align: right;
     
     
 }
@@ -37,14 +36,12 @@ nav ul li{
     
     
 }
-nav ul li a{
-    text-decoration: none;
-    color:whitesmoke
-}
+
 .logo img{
     width: 35px;
     transition: 2s;
     border-radius: 30px;
+    margin: 1rem 1rem;
 }
 .logo{
     display: flex;
@@ -52,7 +49,7 @@ nav ul li a{
     font-weight: bolder;
     font-size: 1.4rem;
     padding: 0 6px;
-    color: rgb(61,154,161);
+    color: #f5cac2;
 }
 .navbar{
     transition:all 0.3s ease ;
@@ -76,7 +73,7 @@ nav ul li a{
     align-items: center;
     color: antiquewhite;
     font-family: 'Poppins', sans-serif;
-    background-color: black;
+    background-color: #141850;
     padding-left: 7rem;
     
     
@@ -101,7 +98,7 @@ nav ul li a{
 .footer_col h4{
     font-size: 1.6rem;
     margin-bottom: 3.5rem;
-    color: antiquewhite;
+    color: #fae5df;
     font-weight: 500;
     position: relative;
 }
@@ -109,7 +106,7 @@ nav ul li a{
     content: '';
     position: absolute;
     left: 0;
-    background-color: rgb(150, 4, 4);
+    background-color: #ed7966;
     height: 2px;
     box-sizing: border-box;
     width: 3rem;
@@ -136,7 +133,7 @@ nav ul li a{
     display: inline-block;
     height: 30px;
     width: 30px;
-    background-color: rgba(255,255,255,0.2);
+    background-color: #303179;
     text-align: center;
     border-radius: 32px;
     line-height: 2.9rem;
@@ -145,7 +142,7 @@ nav ul li a{
 
 }
 .footer_col .socialLinks a:hover{
-    color:rgb(75, 74, 74);
+    color:#141850;
     background-color: #ffffff;
 }
 .navbar{
@@ -155,11 +152,15 @@ nav ul li a{
     border-width: 1px;
     display: inline-block;
 }
+.navbar a{
+    text-decoration: none;
+    color:whitesmoke
+}
 .container{
     width: 90%;
     padding: 0 1rem;
     margin:1rem auto;
-    background-color: rgb(255, 255, 255);
+    background-color:  #fae5df ;
     padding-top: 3rem;
     height: fit-content;
 
@@ -167,6 +168,8 @@ nav ul li a{
 
 .container h1{               
     text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
 }
 hr{
     height: 3.5px;
@@ -215,16 +218,17 @@ button:hover{
 .service i{
     font-size: 5rem;
     margin-bottom: 2rem;
-    color: black;
+    color: #141850;
     
 }
 .service:hover{
-    background-color: rgb(0, 0, 0);
-    color: #ffffff;
+    background-color: #f5cac2;
+    color: #141850;
+    box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2),  0 16px 16px 0 rgba(0,0,0,0.19);
     
 }
 .service:hover i{
-    color: #ffffff;
+    color: #141850;
 }
 .service h2{
     font-weight: 600;
@@ -288,10 +292,10 @@ button:hover{
         list-style-type:none;
         align-items: center;
         height: 6vh;
-        background-color: black ;
+        background-color: #141850 ;
         color: white;
         position: sticky;
-        font-size: 0.9rem;
+        
         
         
     }
@@ -314,4 +318,23 @@ button:hover{
     
     
 }
-
+@media(min-width:1020px){
+    .rows{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+        grid-gap: 3rem;
+    }
+    .service{
+        text-align: center;
+        padding: 6rem 3rem;
+        cursor: pointer;
+        background: transparent;
+        margin-bottom: 2rem;
+    }
+    .service i{
+        font-size: 6rem;
+        margin-bottom: 2rem;
+        color: #141850;
+        
+    }
+}

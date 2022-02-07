@@ -1,22 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Merriweather:wght@300&family=Playfair+Display:wght@400;600&family=Roboto+Slab:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Merriweather:wght@300&family=Playfair+Display:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Merriweather:wght@300&family=Playfair+Display:wght@400;600&family=Poppins:wght@100;200;300&family=Roboto+Slab:wght@700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-
+body{
+    background-color:#ffffff ;
+    font-size: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+    color: #141850;
 }
 html{
     font-size: 62.5%;
 }
-body{
-    background-color:rgb(72, 167, 230);
-    font-size: 1.4rem;
-    font-family: 'Poppins', sans-serif;
+*{
+    padding: 0;
+    margin: 0;
 }
 nav{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;;
     width: 100%;
+    
 
 }
 nav ul{
@@ -24,27 +25,22 @@ nav ul{
     list-style-type:none;
     align-items: center;
     height: 6vh;
-    background-color: black ;
+    background-color: #141850 ;
     color: white;
     position: sticky;
-    
-    
+    text-align: right;
     
     
 }
 nav ul li{
     padding: 0 0.6rem;
     
-    
-}
-nav ul li a{
-    text-decoration: none;
-    color:whitesmoke
 }
 .logo img{
     width: 35px;
     transition: 2s;
     border-radius: 30px;
+    margin: 1rem 1rem;
 }
 .logo{
     display: flex;
@@ -52,13 +48,24 @@ nav ul li a{
     font-weight: bolder;
     font-size: 1.4rem;
     padding: 0 6px;
-    color: rgb(61,154,161);
+    color: #f5cac2;
 }
 .navbar{
     transition:all 0.3s ease ;
 }
 .navbar:hover{
     transform: scale(1.2);
+}
+.navbar{
+    display: flex;
+    border-color: white;
+    border-right: solid;
+    border-width: 1px;
+    display: inline-block;
+}
+.navbar a{
+    text-decoration: none;
+    color:whitesmoke
 }
 .logos img{
     width: 35px;
@@ -76,7 +83,7 @@ nav ul li a{
     align-items: center;
     color: antiquewhite;
     font-family: 'Poppins', sans-serif;
-    background-color: black;
+    background-color: #141850;
     padding-left: 7rem;
     
     
@@ -109,7 +116,7 @@ nav ul li a{
     content: '';
     position: absolute;
     left: 0;
-    background-color: rgb(150, 4, 4);
+    background-color: #ed7966;
     height: 2px;
     box-sizing: border-box;
     width: 3rem;
@@ -136,7 +143,7 @@ nav ul li a{
     display: inline-block;
     height: 30px;
     width: 30px;
-    background-color: rgba(255,255,255,0.2);
+    background-color: #303179;
     text-align: center;
     border-radius: 32px;
     line-height: 2.9rem;
@@ -145,33 +152,29 @@ nav ul li a{
 
 }
 .footer_col .socialLinks a:hover{
-    color:rgb(75, 74, 74);
+    color:#141850;
     background-color: #ffffff;
 }
-.navbar{
-    display: flex;
-    border-color: white;
-    border-right: solid;
-    border-width: 1px;
-    display: inline-block;
-}
+
 .container{
     width: 80%;
     margin: 5rem auto;
     
 }
 .contact-box{
-    background-color: whitesmoke;
+    background-color: #fae5df;
     display: flex;
 
+}
+.contact-box:hover{
+    background-color: #f5cac2;
 }
 .contact-left{
     padding: 40px 60px;
 }
 .contact-right{
     padding: 40px;
-    background-color: rgb(184, 184, 187);
-    color: rgb(0, 0, 0);
+    background-color: #ed7966;
     transition: 1.1s;
 }
 h1{
@@ -215,27 +218,32 @@ textarea{
 label{
     margin-bottom: 6px;
     display: block;
-    color: #33b500;
+    color: #303179;
     font-size: 1.4rem;
 }
-button{
+.button {
     border:1px;
-    color: rgb(0, 0, 0);
-    padding: 0.8rem 5rem;
+    color: rgb(255, 255, 255);
+    padding: 0.8rem 1rem;
     text-align: center;
     display: inline-block;
     font-size: 1.5rem;
-    margin: 3px 0rem;
+    margin: 3px 1.5px;
     cursor: pointer;
-    border-style: double;
-    background-color:rgb(72, 167, 230);
-    font-weight: bolder;
+    background-color:#ed7966;
     font-family: 'Poppins', sans-serif;
-    transition: 1.2s;
-    
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #141850;
+    font-weight: 600;
+}
+.button:hover{
+    background-color: #141850;
+    color: white;
+    box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2),  0 16px 16px 0 rgba(0,0,0,0.19);
 }
 .contact-left h3{
-    color: #1c00b5;
+    color: #303179;
     font-weight: 600;
     margin-bottom: 30px;
     font-size: 2rem;
@@ -262,7 +270,7 @@ tr rd:first-child{
     text-align: center;
     border-radius: 32px;
     line-height: 2.9rem;
-    color: #070707;
+    color: #141850;
     transition:all 0.5s ease ;
 
 }
@@ -276,17 +284,10 @@ tr rd:first-child{
 
 }
 .contact-right .contact a:hover{
-    background-color: rgb(0, 0, 0);
+    background-color: #141850;
     color:white;
 }
-.contact-right:hover{
-    background-color: rgb(158, 154, 154);
-}
-button:hover{
-    background-color: rgb(0, 0, 0);
-    color: white;
-    box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2),  0 16px 16px 0 rgba(0,0,0,0.19);
-}
+
 .contact-box{
     min-height: 60vh;
 }
@@ -294,7 +295,7 @@ button:hover{
     width: 97%;
     text-align: center;
     transition: 1.2s;
-    background-color: #ccc;
+    background-color: #fae5df;
     height: fit-content;
     padding: 1rem 1rem;
     margin: 5rem auto;
@@ -306,7 +307,7 @@ button:hover{
     font-size: 2.2rem;
 }
 .template:hover{
-    background-color: #ffffff;
+    background-color: #f5cac2;
     box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2),  0 16px 16px 0 rgba(0,0,0,0.19);
     font-weight: bolder;
 }
@@ -362,7 +363,7 @@ button:hover{
     }
     .button {
         border:0.8px;
-        color: rgb(0, 0, 0);
+        color: #141850;
         padding: 0.8rem 1rem;
         text-align: center;
         display: inline-block;
@@ -370,7 +371,7 @@ button:hover{
         margin: 2.5px 1.2px;
         cursor: pointer;
         border-style: double;
-        background-color:rgb(72, 167, 230);
+        background-color:#ed7966;
         font-weight: bolder;
         font-family: 'Poppins', sans-serif;
       }
@@ -379,15 +380,16 @@ button:hover{
         list-style-type:none;
         align-items: center;
         height: 6vh;
-        background-color: black ;
+        background-color: #141850 ;
         color: white;
         position: sticky;
-        font-size: 0.9rem;
+        font-size: .9rem;
+        
         
         
     }
     .contact-left h3{
-        color: #1c00b5;
+        color: #303179;
         font-weight: 600;
         margin-bottom: 30px;
         font-size: 1.9rem;
@@ -395,8 +397,8 @@ button:hover{
     }
     .contact-right{
         padding: 40px;
-        background-color: rgb(184, 184, 187);
-        color: rgb(0, 0, 0);
+        background-color: #ed7966;
+        color: #141850;
         transition: 1.1s;
         font-size: 1.0rem;
     }
@@ -404,7 +406,7 @@ button:hover{
         width: 97%;
         text-align: center;
         transition: 1.2s;
-        background-color: #ccc;
+        background-color: #fae5df;
         height: fit-content;
         padding: 1rem 1rem;
         margin: 5rem auto;
@@ -413,16 +415,20 @@ button:hover{
         
         
     }
+    .template:hover{
+        background-color: #f5cac2;
+        box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2),  0 16px 16px 0 rgba(0,0,0,0.19);
+        font-weight: bolder;
+    }
     .template p h2{
         font-size: 1.6rem;
     }
     .contact-box{
-        background-color: whitesmoke;
+        background-color: #fae5df;
         display: grid;
         
     
     }
 
-    
     
 }

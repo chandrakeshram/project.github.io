@@ -181,8 +181,8 @@ nav ul li{
     
 }
 .about0{
-    height:120px;
-    width: 300px;
+    height:250px;
+    width: 600px; 
     
 }
 .image-part{
@@ -219,7 +219,7 @@ nav ul li{
         margin:2rem auto ;
         background-color: #fae5df;
         height:fit-content;
-        width: 100%;
+        width: 80%;
         padding: 2rem 2rem;
         font-size: 0.9rem;
     }
@@ -295,5 +295,9 @@ nav ul li{
         font-weight: 500;
         position: relative;
     }
-    
+    .about0{
+        height:150px;
+        width: 300px; 
+        
+    }
 }

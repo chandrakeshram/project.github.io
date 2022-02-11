@@ -302,6 +302,7 @@ nav ul li{
         border-width: 1px;
         border-color: #141850;
         cursor: pointer;
+        height:fit-content;
     
     }
 }

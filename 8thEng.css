@@ -269,8 +269,8 @@ nav ul li{
         position: relative;
     }
     .box{
-        width: 85%;
-        margin: 2rem 1rem;
+        width: 70%;
+        margin-bottom:1 rem;
         margin-top: 10px;
         height: auto;
     }

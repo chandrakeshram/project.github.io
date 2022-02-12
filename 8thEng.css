@@ -177,7 +177,8 @@ nav ul li{
 
 .box ul li {
     list-style: none;
-    width: 70%;
+    padding: 2.0rem;
+    width: 100%;
     background: #fae5df;
     box-shadow: 0 .5rem 2.5rem rgba(0,0,0,.1);
     transition: transform 0.5s;
@@ -269,14 +270,12 @@ nav ul li{
         position: relative;
     }
     .box{
-        width: 70%;
-        margin-bottom:1 rem;
-        margin-top: 10px;
-        height: auto;
+        width: 80%;
+        margin-left: 2rem;
+        
     }
     
     .box h2{
-    
         color: #141850;
         background: #ed7966;
         padding: 1.0rem 2.0rem;
@@ -285,7 +284,6 @@ nav ul li{
         text-align: center;
         margin-bottom: 1rem;
         width: 100%;
-        
     }
     
     .box ul li {
@@ -295,13 +293,14 @@ nav ul li{
         background: #fae5df;
         box-shadow: 0 .5rem 2.5rem rgba(0,0,0,.1);
         transition: transform 0.5s;
-        font-size: 1rem;
+        font-size: 1.2rem;
         margin-bottom: 0.7rem;
         border-style: solid;
         border-width: 1px;
         border-color: #141850;
         cursor: pointer;
         height:fit-content;
-    
+        padding: unset;
+        margin-left: 2rem;
     }
 }

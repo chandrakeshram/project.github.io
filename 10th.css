@@ -197,6 +197,10 @@ button{
     transition: 1.2s;
     
 }
+.service a{
+    text-decoration: none;
+    color:#141850 ;
+}
 
 button:hover{
     background-color: rgb(0, 0, 0);
